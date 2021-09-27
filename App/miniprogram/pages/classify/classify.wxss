@@ -1,0 +1,177 @@
+/* pages/classify/classify.wxss */
+page{
+    background-color: white;
+    position: fixed;
+}
+.page{
+    width: 100%;
+    height: 100%;
+}
+.head{
+    width: 100%;
+    height: 300rpx;
+    border-bottom: 1rpx solid rgb(238, 237, 237);
+}
+.head_box{
+    margin-top: 200rpx;
+    float: left;
+}
+.head_img_src{
+    width: 70rpx;
+    height: 70rpx;
+    margin-left: 470rpx;
+}
+.head_word{
+    margin-left: 50rpx;
+    font-size: 60rpx;
+    font-weight: 700;
+    font-family:‘Franklin Gothic Medium’, ‘Arial Narrow’, Arial, sans-serif;
+}
+.card{
+    width: 40%;
+    height: 400rpx;
+    background-color: white;
+    border-radius: 25rpx;
+    box-shadow: 10px 10px 20px  #a8a5a5;
+    float: left;
+    margin-left: 50rpx;
+    margin-bottom: 50rpx;
+}
+
+.card_img{
+    width: 100%;
+    height: 300rpx;
+    border-top-right-radius: 25rpx;
+    border-top-left-radius: 25rpx;
+}
+.card_img_src{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 25rpx;
+    border-top-left-radius: 25rpx;
+}
+
+.card_word{
+    width: 100%;
+    height: 100rpx;
+    background-color: white;
+    border-bottom-left-radius: 25rpx;
+    border-bottom-right-radius: 25rpx;
+}
+.card_word_big_txt{
+    margin-left: 30rpx;
+    margin-top: 20rpx;
+    font-family:‘Franklin Gothic Medium’, ‘Arial Narrow’, Arial, sans-serif;
+}
+.card_word_small_txt{
+    font-size: 35rpx;
+    font-weight: 300;
+}
+.buttom{
+    width: 100%;
+    height: 100rpx;
+}
+.left{
+  width: 25%;
+  height: 1200rpx;
+  background-color: rgb(238, 237, 237);
+  float: left;
+}
+.right{
+  width: 75%;
+  height: 1200rpx;
+  background-color: white;
+  float: left;
+}
+.block{
+  width: 100%;
+  height: 80rpx;
+  background-color: rgb(238, 237, 237);
+  text-align: center;
+  line-height: 80rpx;
+  color: rgb(131, 130, 130);
+  font-size: 30rpx;
+  font-weight: 500;
+}
+.block_click{
+  width: 100%;
+  height: 80rpx;
+  background-color: white;
+  text-align: center;
+  line-height: 80rpx;
+  color: #2962ca;
+  font-size: 30rpx;
+  font-weight: 500;
+}
+::-webkit-scrollbar {
+ 
+  width: 0;
+   
+  height: 0;
+   
+  color: transparent;
+   
+  }
+  .left_buttom{
+    width: 25%;
+    height: 300rpx;
+    background-color: rgb(238, 237, 237);
+  }
+  .right{
+    width: 75%;
+    height: 1200rpx;
+    background-color: white;
+    float: left;
+  }
+  .head_word{
+    margin-left: 50rpx;
+    font-size: 60rpx;
+    font-weight: 700;
+    font-family:‘Franklin Gothic Medium’, ‘Arial Narrow’, Arial, sans-serif;
+}
+  .shops{
+    
+    width: 80%;
+    height: 700rpx;
+    background-color: white;
+    border-radius: 20rpx;
+    margin: 0 auto;
+    margin-top: 50rpx;
+    margin-bottom: 50rpx;
+    box-shadow: 10px 10px 20px  #a8a5a5;
+
+}
+.shops_img{
+  width: 300rpx;
+    height: 300rpx;
+    margin: 0 auto;
+}
+.shops_img_src{
+    height: 300rpx;
+    width: 300rpx;
+    margin: 0 auto;
+    margin-top: 5rpx;
+}
+.shops_word{
+    font-size: 32rpx;
+    font-weight: 300;
+    font-family:‘Franklin Gothic Medium’, ‘Arial Narrow’, Arial, sans-serif;
+}
+.tip_biggest{
+    margin-top: 50rpx;
+    margin-bottom:10rpx;
+}
+.tip{
+    font-size:25rpx;
+    font-weight: 200;
+    margin-top: 25rpx;
+}
+.tip_big{
+    font-size: 30rpx;
+    font-weight: 300;
+    margin-top: 20rpx;
+}
+.shop_word_big{
+  padding-left: 5rpx;
+  padding-right: 10rpx;
+}

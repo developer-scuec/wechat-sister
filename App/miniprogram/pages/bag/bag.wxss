@@ -1,0 +1,62 @@
+/* pages/bag/bag.wxss */
+page{
+    background-color: rgb(238, 237, 237);
+}
+.head{
+    width: 100%;
+    height: 300rpx;
+}
+.head_box{
+    margin-top: 200rpx;
+    float: left;
+}
+.head_img_src{
+    width: 70rpx;
+    height: 70rpx;
+    margin-left: 470rpx;
+}
+.shops{
+    width: 90%;
+    height: 400rpx;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 20rpx;
+}
+.head_word{
+    margin-left: 50rpx;
+    font-size: 60rpx;
+    font-weight: 700;
+    font-family:‘Franklin Gothic Medium’, ‘Arial Narrow’, Arial, sans-serif;
+}
+.shops_img{
+    height: 100%;
+    width: 150rpx;
+    float: left;
+}
+.shops_img_src{
+    height: 70rpx;
+    width: 70rpx;
+    margin: 0 auto;
+    margin-top: 50rpx;
+    background-color: violet;
+}
+.shops_word{
+    font-size: 32rpx;
+    font-weight: 300;
+    font-family:‘Franklin Gothic Medium’, ‘Arial Narrow’, Arial, sans-serif;
+    float: left;
+}
+.tip_biggest{
+    margin-top: 50rpx;
+    margin-bottom:10rpx;
+}
+.tip{
+    font-size:25rpx;
+    font-weight: 200;
+    margin-top: 25rpx;
+}
+.tip_big{
+    font-size: 30rpx;
+    font-weight: 300;
+    margin-top: 20rpx;
+}

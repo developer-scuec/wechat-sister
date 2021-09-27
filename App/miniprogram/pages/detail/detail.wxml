@@ -1,0 +1,16 @@
+<!--pages/detail/detail.wxml-->
+<view class="head"></view>
+<view class="back" bindtap="detailBack">
+    <image class="back_img" src="/pages/icon/back.png"></image>
+</view>
+<view class="box" wx:for="{{data}}">
+<view class="details" wx:for="{{item.details}}">
+    <view class="details_word">
+        {{item[0]}}
+    </view>
+    <view class="details_img">
+        <image class="details_img_src" mode="aspectFill" src="cloud://cloud1-5gsp7h3z75dd9ec2.636c-cloud1-5gsp7h3z75dd9ec2-1307453942/images/{{item[1]}}"></image>
+    </view>
+</view>
+</view>
+

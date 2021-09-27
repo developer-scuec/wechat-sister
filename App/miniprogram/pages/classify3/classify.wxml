@@ -1,0 +1,22 @@
+<!--pages/classify/classify.wxml-->
+<view class="head">
+    <view class="head_word head_box">
+        <text>首页</text>
+    </view>
+    <view class="head_img head_box">
+        <image class="head_img_src" src="/pages/icon/confirm.png"/>
+    </view>
+</view>
+<view id="page">
+<view class="left">
+  <view wx:for-items="{{classifies}}" wx:for-item="item" bindtap="changeClassify" id="{{item._id}}" data-current="{{item.classify}}" class='{{item._id==clickClassify?"block_click":"block"}}'>
+    {{item.classify}}
+  </view>
+</view>
+<scroll-view class="right" scroll-y="true">
+  <navigator class="shops" wx:for="{{current}}" url="/pages/detail/detail?id={{item._id}}">
+    <image class="shop_img" src="cloud://cloud1-9ggxx6c5edb92b01.636c-cloud1-9ggxx6c5edb92b01-1307087975/images/{{item.shop_image[0]}}.png" mode="aspectFill"></image>
+  </navigator>
+  
+</scroll-view>
+</view>

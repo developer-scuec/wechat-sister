@@ -1,0 +1,21 @@
+<!--pages/bag/bag.wxml-->
+<view class="head">
+    <view class="head_word head_box">
+        <text>袋子</text>
+    </view>
+    <view class="head_img head_box">
+        <image class="head_img_src" src="/pages/icon/confirm.png"/>
+    </view>
+</view>
+<view class="shops">
+    <view class="shops_img">
+        <view class="shops_img_src"></view>
+    </view>
+    <view class="shops_word">
+        <view class="shop_word_big tip_biggest">iPhone 13 64GB 紫色              RMB 5,199</view>
+        <view class="shop_word_big tip">今天订购，预计送达日期:</view>
+        <view class="shop_word_big tip_big">2021/09/30 - 2021/10/14 - 免费</view>
+        <view class="shop_word_big tip">取货(店内):</view>
+        <view class="shop_word_big tip_big">今天；Apple 深圳益田假日里:</view>
+    </view>
+</view>
